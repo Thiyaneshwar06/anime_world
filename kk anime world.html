@@ -1,0 +1,141 @@
+<html>
+    <head>
+        <title>Login</title>
+            <link rel="icon" href="icon.jpg">
+          <style>
+              body {
+                  margin: 110px;
+                  padding: 0;
+                  font-family: Arial, sans-serif;
+                  background: url("WallpaperDog-10861125.jpg") no-repeat;
+                  background-size: cover;
+              }
+      
+              header {
+                  background-color: #3498db;
+                  color: #fff;
+                  padding: 20px;
+                  display: flex;
+                  justify-content: space-between;
+                  align-items: center;
+              }
+      
+              header h1 {
+                  margin: 0;
+              }
+      
+              .help-anchor {
+                  color: #c0392b;
+                  text-decoration: none;
+                  font-weight: bold;
+              }
+      
+              .help-anchor:hover {
+                  color: #e74c3c;
+              }
+      
+              .login-container {
+                  margin-left: 30%;
+                  margin-top: 100px;
+                  width: 400px;
+                  background: transparent;
+                  backdrop-filter: blur(10px);
+                  padding: 20px;
+                  border-radius: 5px;
+                  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+              }
+      
+              .login-container h2 {
+                  text-align: center;
+                  color: #fff;
+              }
+      
+              .login-form {
+                  margin-top: 20px;
+              }
+      
+              .form-group {
+                  margin-bottom: 20px;
+              }
+      
+              .form-group label {
+                  display: block;
+                  margin-bottom: 5px;
+                  color: #fff;
+              }
+      
+              .form-group input {
+                  width: 100%;
+                  padding: 10px;
+                  border:none;
+                  border-radius: 30px;
+              }
+      
+              .form-group input[type="submit"] {
+                  background-color: #3498db;
+                  color: #fff;
+                  cursor: pointer;
+              }
+      
+              .form-group input[type="submit"]:hover {
+                  background-color: #2980b9;
+              }
+      
+              .forgot-password,
+              .register-link {
+                  text-align: center;
+                  margin-top: 10px;
+                  color: #fff;
+              }
+              .forgot-password a{
+                  padding-left: 270px;
+                  text-decoration: none;
+                  color: #fff;
+              }
+              .register-link a{
+                  text-decoration: none;
+                  color: #fff;
+              }
+              .forgot-password a:hover{
+                  text-decoration: underline;
+                  color: blue;
+                  cursor: pointer;
+              }
+              .register-link a:hover{
+                  text-decoration: underline;
+                  color: BLUE;
+                  cursor: pointer;
+              }
+          </style>
+      </head>
+      <body>
+      <div class="login-container">
+          <h2>Login</h2>
+          <form class="login-form">
+              <div class="form-group">
+                  <label for="username">Username</label>
+                  <input type="text" id="username"  required>
+              </div>
+              <div class="form-group">
+                  <label for="password">Password</label>
+                  <input type="password" id="password"  required>
+                  <div class="forgot-password">
+                      <a href="#">Forgot password?</a>
+                  </div>
+              </div>
+              <div class="form-group">
+                  <a href="mani.html"><input type="submit" value="login" onclick="hi()" ></a>
+              </div>
+          </form>
+          <div class="register-link">
+              Don't have an account? <a href="mani.html ">Sign up</a>
+          </div>
+      </div>
+      <script>
+          function hi(){
+           window.location.href="firstpage.html"
+          }
+      </script>
+      
+      </body>
+      </html>      
